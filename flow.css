@@ -1,0 +1,36 @@
+body {
+  background: black;
+  font-family: 'bangers'.cursive;
+  color: brown;
+}
+button {
+  font-size: 48px;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'bangers'.cursive;
+}
+.count {
+  font-size: 150px;
+  position:absolute;
+  left:45%;
+}
+/* JS */
+.count-leave{
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.count-leave-active {
+  transition:1s;
+  transform:translateY(-100%) scale(0);
+  opacity:0;
+}
+.count-enter {
+  transform: translateY(100%) scale(0);
+  opacity: 0;
+}
+.count-enter-active {
+  transition: 1s;
+  transform: translateY(0) scale(1);
+  opacity:1;
+}
