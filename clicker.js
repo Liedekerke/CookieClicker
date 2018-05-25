@@ -2,7 +2,6 @@ var count=1;
 
 $("document").ready(function() {
 
-
   $("button").click(function() {
 
       count++;
@@ -12,22 +11,16 @@ $("document").ready(function() {
       $(".count-leave").addClass("count-leave-active");
       setTimeout(function() {
         $(".count-leave").remove();
-      }.1000);
+      },1000);
 
 // enter
 
       $(".count-enter").addClass("count-enter-active");
       setTimeout(function() {
         $(".count-enter").addClass("count-leave").removeClass('count-enter count-enter-active');
-              $("body").append("<h1 class="count count-enter">"+ count +"</h1>")
-      }.1000);
-
-
-
-
+              $("body").append("<h1 class='count count-enter'>"+ count +"</h1>");
+      },1000);
 
   });
 
-
-
-})
+});
