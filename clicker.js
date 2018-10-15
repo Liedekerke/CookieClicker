@@ -24,7 +24,7 @@ $("document").ready(function() {
   });
 
 });
-<<<<<<< HEAD
+
 
 // idee de tableau a bosser chef
 // var data = [
@@ -45,5 +45,3 @@ $("document").ready(function() {
 //   else
 //     data[i].classement = i+1;
 // }
-=======
->>>>>>> 86a10e466c31631e036a6ca080890613ce37f68d
